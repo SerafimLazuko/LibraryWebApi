@@ -19,7 +19,18 @@
 
 ![image](https://user-images.githubusercontent.com/32098170/226669011-5615fcb3-a5d9-4cdc-bc58-baafdd35e13e.png)
 
-    <{
-  "password": "secret",
-  "login": "SamKing"
-    }>
+    {
+        "password": "secret",
+        "login": "SamKing"
+    }
+
+В ответе получаем **токен** (валиден 20 минут). Его нужно использовать в заголовке запросов к апи.
+
+Токен нужно вписать в следующее поле 
+
+![image](https://user-images.githubusercontent.com/32098170/226673694-228a31db-ed6c-43bc-8525-480e6ce3ae2f.png)
+
+Тогда он автоматом будет прокидываться в запросы
+
+![image](https://user-images.githubusercontent.com/32098170/226673891-a71da1af-231a-4723-ae9f-0d616f16001b.png)
+
